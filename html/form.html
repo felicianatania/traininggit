@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Request Form</title>
+    <link rel="stylesheet" href="../css/styleForm.css">
+</head>
+<body>
+    <h1>What Service Are You Loooking For?</h1>
+    <h4>Describe the service you're looking to purchase - please be as detailed as possible:</h4>
+    <form action="">
+        <textarea name="" id="" cols="30" rows="7">I'm looking for...</textarea>
+        <div class="wrap">
+            <label for="inputFile" class="inputFile">
+                Attach Files <img src="../assets/papperclip.png" alt="">
+                <input type="file" class="none" id="inputFile"><br>
+            </label>
+        </div>
+        <label class="category" for="category">Choose A Category</label><br>
+        <select id="category" name="category">
+            <option class="pertama">Select</option>
+            <option>Graphics & Design</option>
+            <option>Digital Marketing</option>
+            <option>Writing & Translation</option>
+            <option>Video & Animations</option>
+            <option>Music & Audio</option>
+            <option>Programming & Tech</option>
+            <option>Business</option>
+            <option>Lifestyle</option>
+            <option>Trending</option>
+        </select><br>
+        <label for="budget">What is your budget for this service?</label><br>
+        <input type="number" name="budget" id="budget" placeholder="Rp"><br>
+        <label for="date">When would you like your service delivered?</label><br>
+        <input type="date" name="date" id="date"><br>
+        <button type="submit">Submit Request</button>
+    </form>
+</body>
+</html>

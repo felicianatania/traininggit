@@ -36,6 +36,14 @@ body{
     filter: drop-shadow(5px 10px 15px #121F40);
 }
 
+.card:hover{
+    transform: translateY(-10px);
+    transition: 0.5s;
+    background: #92aef6bd;
+    color: #FFFF;
+    transition: all 0.3s ease-in-out;
+}
+
 .card > input{
     width: 80%;
     border-radius: 10px;
@@ -66,6 +74,14 @@ body{
     background: rgba(72, 70, 151, 0.8);
     color: #FFFF;
     filter: drop-shadow(0px 4px 15px #121F40);
+}
+
+.card button:hover{
+    transform: scale(1.05);
+    transform: translateY(-2px);
+    background: #ECECEC;
+    color: black;
+    transition: all 0.3s ease-in-out;
 }
 
 .login{
